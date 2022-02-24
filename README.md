@@ -1,2 +1,2 @@
 # Portafolio
-Portafolilo de proyectos para CV
+Portafolio de proyectos para CV
