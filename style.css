@@ -1,8 +1,9 @@
 .navbar{
-    padding: 2rem;
+    padding: 1rem;
     background-color: #ABB2B9  ;
     font-size: 25px;
     font-family: 'PT Mono', monospace;
+    
    
 }
 
@@ -32,17 +33,31 @@
 }
 
 
+   
 
-.nav-link{
-    transition: all 0.5s;
-}
+ li a:after {
+        content: "";
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 0px;
+        transition: all .8s;
+        }
+         li a:hover:after {
+        width: 100%;
+        background: whitesmoke;
+        }
 
+/*
 .nav-link:hover{
+    transition: all 1.5s;
     background-color: whitesmoke;
-    padding: 1px;
-    border-radius: 20%;
+    padding: 0.5px;
+    margin-left:10px;
+    border-radius: 5%;
     justify-content: center;
-}
+    left: 0;
+}*/
 
 .navbar-collapse{
      justify-content: space-between;
@@ -59,15 +74,17 @@
  
 }
 .skills img {
-       width: 100px;
+       width: 70px;
       margin-top: 20px;     
  }
  .skills h3 {
       font-size: 20px; 
+      text-decoration: none; 
 }
 .skills .card {
     background-color: #D5D8DC;
-    border: none;     
+    border: none;  
+      
 }
 
  .skills img:hover {filter: opacity(.5); 
