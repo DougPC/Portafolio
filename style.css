@@ -48,16 +48,7 @@
         background: whitesmoke;
         }
 
-/*
-.nav-link:hover{
-    transition: all 1.5s;
-    background-color: whitesmoke;
-    padding: 0.5px;
-    margin-left:10px;
-    border-radius: 5%;
-    justify-content: center;
-    left: 0;
-}*/
+
 
 .navbar-collapse{
      justify-content: space-between;
@@ -65,7 +56,7 @@
 
 /*Estilos generales*/
 
-.skills{
+.skills {
     background-color: #D5D8DC;
     display: flex;
     justify-content: space-around;
@@ -73,15 +64,19 @@
 
  
 }
-.skills img {
-       width: 70px;
+.skills img{
+      width: 70px;
       margin-top: 20px;     
  }
- .skills h3 {
+ .skills a {
       font-size: 20px; 
       text-decoration: none; 
 }
-.skills .card {
+
+.skills a h3 {
+    font-size: 20px; 
+}
+.skills .card{
     background-color: #D5D8DC;
     border: none;  
       
@@ -90,6 +85,9 @@
  .skills img:hover {filter: opacity(.5); 
     transition: all 1s;
 }
+
+
+
 
 
 .skills .titulo{
@@ -135,8 +133,6 @@ h2{
     display: flex;
     flex-direction: row;
     text-align:justify;  
-    
-    
 }
 
 
