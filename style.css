@@ -1,0 +1,224 @@
+.navbar{
+    padding: 2rem;
+    background-color: #ABB2B9  ;
+    font-size: 25px;
+    font-family: 'IBM Plex Mono bold', monospace;
+}
+
+.servicios .sec{
+    
+    transition: all  2s;
+    width:300px;
+    border: none;
+    align-items: center;
+ 
+    
+  
+}
+
+.servicios .sec:hover { 
+
+    background-color: #5D6D7E;
+    color: whitesmoke;
+    width: 350px;
+    border-radius: 5%;
+ 
+  
+
+   
+ 
+}
+
+.titulo{
+
+    transition: all  1s;
+ }
+.titulo:hover{
+
+   color: red;
+}
+
+
+
+.nav-link{
+    transition: all 0.5s;
+}
+
+.nav-link:hover{
+    background-color: whitesmoke;
+    padding: 1px;
+    border-radius: 20%;
+    justify-content: center;
+}
+
+.navbar-collapse{
+     justify-content: space-between;
+}
+
+/*Estilos generales*/
+
+.skills{
+    background-color: #D5D8DC;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.skills img {
+       width: 100px;
+       margin-top: 20px;
+       
+ }
+ .skills .card img {
+   background-color: #ABB2B9;
+    
+}
+
+ .skills img:hover {filter: opacity(.5); 
+    transition: all 1s;
+}
+
+
+.skills .titulo{
+  
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+    
+}
+
+
+/*seccion Hero*/
+.hero{
+    min-height: 450px;
+}
+
+.hero-principal{
+    padding: 3rem;    
+}
+
+.hero-imagen{
+    width: 300px;
+    height: 280px;
+    margin: 20px;    
+}
+
+h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+.sobre-mi{
+    background-color:#D5D8DC  ;
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    flex-direction: row;
+    text-align:justify;    
+}
+
+
+
+.sobre-mi .titulo{
+    margin-top:20px;
+    margin-left:15px;
+    font-size: 40px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+
+.servicios .titulo{
+    margin-top:20px;
+    margin-left:15px;
+    font-size: 40px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.servicios .sec{
+
+color: black;
+margin-top: 20px;
+padding: 20px;
+border: solid 0,5px;
+font-size: 20px;
+border-radius: 20%;
+font-family: 'IBM Plex Mono bold', monospace;
+}
+
+
+
+
+/*Adaptable (Responsivo)*/
+
+
+
+
+@media screen and (max-width: 750px){
+    .navbar-brand{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    .sobre-mi{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: justify;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    .servicios div{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: justify;
+    margin-top: 20px;
+    padding-top: 10px;
+    
+    }
+}
+
+@media screen and (max-width: 650px){
+    .servicios div{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: justify;
+    margin-top: 20px;
+    padding-top: 10px;
+    
+    }
+}
+
+@media screen and (max-width: 650px){
+    .skills {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: justify;
+    margin-top: 20px;
+    padding-top: 10px;
+    
+    }
+}
+
+
