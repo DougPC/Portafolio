@@ -2,18 +2,16 @@
     padding: 2rem;
     background-color: #ABB2B9  ;
     font-size: 25px;
-    font-family: 'IBM Plex Mono bold', monospace;
+    font-family: 'PT Mono', monospace;
+   
 }
 
 .servicios .sec{
     
-    transition: all  2s;
+    transition: all 2s;
     width:300px;
     border: none;
     align-items: center;
- 
-    
-  
 }
 
 .servicios .sec:hover { 
@@ -22,12 +20,7 @@
     color: whitesmoke;
     width: 350px;
     border-radius: 5%;
- 
-  
-
-   
- 
-}
+ }
 
 .titulo{
 
@@ -61,17 +54,20 @@
     background-color: #D5D8DC;
     display: flex;
     justify-content: space-around;
+    font-family: 'PT Mono', monospace;
+
  
 }
-
 .skills img {
        width: 100px;
-       margin-top: 20px;
-       
+      margin-top: 20px;     
  }
- .skills .card img {
-   background-color: #ABB2B9;
-    
+ .skills h3 {
+      font-size: 20px; 
+}
+.skills .card {
+    background-color: #D5D8DC;
+    border: none;     
 }
 
  .skills img:hover {filter: opacity(.5); 
@@ -83,7 +79,7 @@
   
     font-size: 40px;
     padding-top: 30px;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'PT Mono', monospace;
     text-align: center;
 }
 
@@ -118,10 +114,12 @@ h2{
 .sobre-mi{
     background-color:#D5D8DC  ;
     font-size: 20px;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'PT Mono', monospace;
     display: flex;
     flex-direction: row;
-    text-align:justify;    
+    text-align:justify;  
+    
+    
 }
 
 
