@@ -1,11 +1,66 @@
+
+.contact-form{
+    
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    
+   
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -6%;
+    transform: rotate(350deg);
+}
+.contact-form form{
+    
+    padding: 8%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -9%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
 .navbar{
     padding: 1rem;
     background-color: #ABB2B9  ;
     font-size: 25px;
     font-family: 'PT Mono', monospace;
-    
-   
-}
+  }
+
+
 
 .servicios .sec{
     
@@ -220,7 +275,7 @@ font-family: 'IBM Plex Mono bold', monospace;
     }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 768px){
     .skills {
     display:flex;
     flex-direction:column;
