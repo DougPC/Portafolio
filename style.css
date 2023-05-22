@@ -4,6 +4,7 @@
     margin-top: 10%;
     margin-bottom: 5%;
     width: 70%;
+    font-family: 'PT Mono', monospace;
     
    
 }
@@ -15,7 +16,7 @@
 }
 .contact-image img{
     border-radius: 6rem;
-    width: 11%;
+    width: 15%;
     margin-top: -6%;
     transform: rotate(350deg);
 }
