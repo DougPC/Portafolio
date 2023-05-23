@@ -235,7 +235,7 @@ font-family: 'IBM Plex Mono bold', monospace;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 980px){
     .contac div {
     display:flex;
     flex-direction:column;
