@@ -32,8 +32,7 @@
    color: red;
 }
 
-
-   
+  
 
  li a:after {
         content: "";
@@ -203,19 +202,8 @@ font-family: 'IBM Plex Mono bold', monospace;
 }
 
 
-@media screen and (max-width: 650px){
-    .servicios div{
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    text-align: justify;
-    margin-top: 20px;
-    padding-top: 10px;
-    
-    }
-}
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 750px){
     .servicios div{
     display:flex;
     flex-direction:column;
