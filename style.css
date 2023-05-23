@@ -164,12 +164,7 @@ border-radius: 20%;
 font-family: 'IBM Plex Mono bold', monospace;
 }
 
-.contac div{
-   
-      
-        
-      
-   }
+
 
 
 
@@ -230,6 +225,18 @@ font-family: 'IBM Plex Mono bold', monospace;
 
 @media screen and (max-width: 768px){
     .skills {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: justify;
+    margin-top: 20px;
+    padding-top: 10px;
+    
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contac {
     display:flex;
     flex-direction:column;
     align-items: center;
